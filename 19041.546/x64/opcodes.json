@@ -1,0 +1,22 @@
+{
+  "Purchase": {
+    "old": {
+      "address": "F8F55",
+      "opcode": "default"
+    },
+    "now": {
+      "address": "10ED9F",
+      "opcode": "default"
+    }
+  },
+  "Trial": {
+    "old": {
+      "address": "AC1B0",
+      "opcode": "default"
+    },
+    "now": {
+      "address": "1034CF",
+      "opcode": "default"
+    }
+  }
+}
