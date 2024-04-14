@@ -17,14 +17,16 @@ FF EB 08 8B 4D 08 8A 49 31 88 08 8B
 8A 49 31 >> B1 00 90
 
 --------
-(ARM templates are in beta testing)
+(ARM patterns are in beta testing)
 
 ARM32 dll:
-73 6F 0B B1 01 23 00
+0B B1 01 23 00 E0 00 23 2B 70 20 46
 B1 01 >> B1 00
 
-02 E0 90 F8 31 30
-90 F8 31 30 >> 4F F0 00 03
+(02 E0 90 F8 ?? 30 0B 70 20 46)
+90 F8 ?? 30 >> 4F F0 00 03
+02 E0 90 F8 31 30 0B 70 20 46 /OR/ 02 E0 90 F8 2D 30 0B 70 20 46
+90 F8 31 30 >> 4F F0 00 03 /OR/ 90 F8 2D 30 >> 4F F0 00 03
 
 --------
 ARM64 dll:
