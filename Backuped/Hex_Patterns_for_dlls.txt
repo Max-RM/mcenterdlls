@@ -1,3 +1,14 @@
+```In connection with the drama,
+TNT ENTERTAINMENT inc make a statement.```
+
+Hex patterns for modifying system DLLs developed by MaxRM are now prohibited from being used in third-party projects. 
+
+Starting today, 07/24/2024, all projects using these Hex patterns must remove them from their code within 3 days in order to avoid strikes. 
+
+__This prohibition also applies to Hex templates that can be created based on existing ones - for example, if you remove or add a few bytes, this does not mean that you now have "your own Hex template" it is just a "workaround" and according to the current statement, such workarounds also prohibited.__
+
+Thank you for your cooperation.
+_________________________________
 x64 Dll:
 
 39 9E C8 00 00 00 0F 95 C1 88 0F 8B
